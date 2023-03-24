@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: steelblue;
+}
+form{
+    margin: auto;
+    width: 50%;
+    min-height:200px;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px rgb(241, 241, 241),
+    -5px -5px -10px rgb(253, 253, 253);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+}
+.base{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.base h1{
+    margin: 0px;
+}
+.base button{
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.block{
+    margin: 0.5rem 1rem;
+}
+.block input{
+    height: 2rem;
+    width: 100px;
+}
